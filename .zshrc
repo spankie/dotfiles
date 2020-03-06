@@ -1,5 +1,5 @@
 # get bash scricpt
-source $HOME/.bash_profile
+# source $HOME/.bash_profile
 
 # java config
 # export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
@@ -29,12 +29,18 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline status)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-source  ~/powerlevel9k/powerlevel9k.zsh-theme
+# Doing this because home-brew was used to install the theme
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+# This would be used if it was cloned
+# source  ~/powerlevel9k/powerlevel9k.zsh-theme
 
 # zsh syntax highlight.
 # THIS MUST REMAIN AT THE END OF THIS FILE!!!
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/opt/zsh-autosuggestions/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/opt/zsh-syntax-highlighting/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/spankie/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/spankie/google-cloud-sdk/path.zsh.inc'; fi
