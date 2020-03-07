@@ -6,7 +6,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # install zsh
-brew install zsh powerlevel9k iterm2
+brew install zsh powerlevel9k iterm2 zsh-autosuggestions zsh-syntax-highlighting
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
