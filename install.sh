@@ -2,6 +2,8 @@
 
 # script to install and setup new mac system for golang and java webdevelopment
 
+# TODO: add command to install xcode developer tools. Its needed by git
+
 # install homebrew first
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
