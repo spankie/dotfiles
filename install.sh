@@ -4,6 +4,9 @@
 
 # TODO: add command to install xcode developer tools. Its needed by git
 
+xcode-select --install
+
+
 # install homebrew first
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
