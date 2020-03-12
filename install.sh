@@ -2,6 +2,9 @@
 
 # script to install and setup new mac system for golang and java webdevelopment
 
+# add command to install xcode developer tools. Its needed by git
+xcode-select --install
+
 # setup git configurations since git is presumed to be preinstalled on macos
 git config --global user.name "Odohi David"
 git config --global user.email "odohi.david@gmail.com"
