@@ -2,6 +2,10 @@
 
 # script to install and setup new mac system for golang and java webdevelopment
 
+# setup git configurations since git is presumed to be preinstalled on macos
+git config --global user.name "Odohi David"
+git config --global user.email "odohi.david@gmail.com"
+
 # install homebrew first
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
@@ -29,6 +33,9 @@ cat .zshrc >> ~/.zshrc
 
 
 source ~/.zshrc
+
+
+# TODO: install docker
 
 
 echo "Run '>shell command' in vscode to activate code command in the terminal"
