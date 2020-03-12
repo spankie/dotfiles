@@ -12,6 +12,9 @@ alias gopath="cd $GOPATH/src/github.com/spankie"
 alias goweb="cd /Library/WebServer/Documents"
 alias startmysql="mysql.server start"
 alias stopmysql="mysql.server stop"
+alias gm="git push origin master"
+alias gum="git push -u origin master"
+alias gd="git push origin develop"
 
 ##############################################################################
 # History Configuration
